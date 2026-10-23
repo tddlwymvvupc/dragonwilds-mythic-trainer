@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <clipPath id="cut">
+      <rect x="0" y="0" width="256" height="256"/>
+    </clipPath>
+  </defs>
+  <rect width="256" height="256" fill="#0b0a12"/>
+  
+  <!-- outer heraldic frame with cyber detail -->
+  <path d="M28 36 L128 16 L228 36 L244 128 L228 220 L128 240 L28 220 L12 128 Z" fill="none" stroke="#e8d9b0" stroke-width="2.5" opacity="0.85"/>
+  <path d="M36 44 L128 26 L220 44 L234 128 L220 212 L128 230 L36 212 L22 128 Z" fill="none" stroke="#4ff0c8" stroke-width="0.8" opacity="0.5" stroke-dasharray="4 6"/>
+  
+  <!-- etched corner marks -->
+  <path d="M28 36 L48 40 M28 36 L32 56" stroke="#c8321e" stroke-width="2" fill="none"/>
+  <path d="M228 36 L208 40 M228 36 L224 56" stroke="#c8321e" stroke-width="2" fill="none"/>
+  <path d="M28 220 L48 216 M28 220 L32 200" stroke="#c8321e" stroke-width="2" fill="none"/>
+  <path d="M228 220 L208 216 M228 220 L224 200" stroke="#c8321e" stroke-width="2" fill="none"/>
+  
+  <!-- dragon skull main mass - off center left -->
+  <path d="M64 88 L72 72 L88 62 L112 58 L136 64 L150 78 L154 96 L146 112 L138 124 L142 140 L136 152 L120 158 L100 154 L86 144 L76 128 L70 108 Z" fill="#1a1620" stroke="#e8d9b0" stroke-width="2.2"/>
+  
+  <!-- skull crest horns -->
+  <path d="M88 62 L80 44 L92 52 L96 38 L104 56" fill="#1a1620" stroke="#e8d9b0" stroke-width="1.8" stroke-linejoin="round"/>
+  <path d="M136 64 L146 46 L152 60 L164 52 L160 72" fill="#1a1620" stroke="#e8d9b0" stroke-width="1.8" stroke-linejoin="round"/>
+  
+  <!-- eye sockets -->
+  <path d="M88 90 L104 84 L112 94 L102 104 L88 98 Z" fill="#0b0a12" stroke="#4ff0c8" stroke-width="1.5"/>
+  <path d="M124 88 L140 84 L148 94 L138 106 L124 100 Z" fill="#0b0a12" stroke="#4ff0c8" stroke-width="1.5"/>
+  
+  <!-- eye glow accents -->
+  <circle cx="99" cy="94" r="3" fill="#c8321e"/>
+  <circle cx="136" cy="95" r="3" fill="#c8321e"/>
+  
+  <!-- nasal cavity -->
+  <path d="M114 108 L118 118 L112 124 L116 134 L108 130 L110 120 Z" fill="#0b0a12" stroke="#e8d9b0" stroke-width="1.2"/>
+  
+  <!-- jaw / teeth row -->
+  <path d="M80 136 L88 144 L96 148 L106 150 L116 150 L126 148 L134 144 L140 138" fill="none" stroke="#e8d9b0" stroke-width="1.8"/>
+  <path d="M84 140 L86 148 M92 144 L94 152 M102 148 L102 156 M112 150 L112 158 M122 148 L120 156 M130 144 L128 152" stroke="#e8d9b0" stroke-width="1.2" fill="none"/>
+  
+  <!-- cracks across skull -->
+  <path d="M118 70 L114 84 L120 96" fill="none" stroke="#c8321e" stroke-width="1.4"/>
+  <path d="M120 96 L112 108 L114 118" fill="none" stroke="#c8321e" stroke-width="1.2"/>
+  <path d="M96 66 L92 80 L98 86" fill="none" stroke="#4ff0c8" stroke-width="0.9" opacity="0.7"/>
+  <path d="M142 80 L148 92 L144 104" fill="none" stroke="#4ff0c8" stroke-width="0.9" opacity="0.7"/>
+  
+  <!-- hourglass fusion - lower portion -->
+  <path d="M84 160 L172 160 L164 172 L156 188 L156 204 L164 220 L84 220 L92 204 L92 188 L84 172 Z" fill="#1a1620" stroke="#e8d9b0" stroke-width="2"/>
+  
+  <!-- hourglass waist caps -->
+  <line x1="84" y1="160" x2="172" y2="160" stroke="#e8d9b0" stroke-width="2.5"/>
+  <line x1="84" y1="220" x2="172" y2="220" stroke="#e8d9b0" stroke-width="2.5"/>
+  
+  <!-- hourglass neck / twist -->
+  <path d="M120 178 L128 178 L134 190 L128 202 L120 202 L114 190 Z" fill="#0b0a12" stroke="#4ff0c8" stroke-width="1.2"/>
+  
+  <!-- falling glowing sand / energy particles -->
+  <polygon points="122,186 126,190 122,194 118,190" fill="#4ff0c8" opacity="0.9"/>
+  <polygon points="118,198 122,202 118,206 114,202" fill="#c8321e" opacity="0.8"/>
+  <polygon points="126,198 130,202 126,206 122,202" fill="#4ff0c8" opacity="0.7"/>
+  <circle cx="120" cy="210" r="1.5" fill="#4ff0c8"/>
+  <circle cx="128" cy="212" r="1.2" fill="#c8321e"/>
+  <circle cx="124" cy="216" r="1" fill="#4ff0c8"/>
+  
+  <!-- hourglass cyber terminal grid lines -->
+  <line x1="96" y1="168" x2="160" y2="168" stroke="#4ff0c8" stroke-width="0.5" opacity="0.3"/>
+  <line x1="96" y1="176" x2="160" y2="176" stroke="#4ff0c8" stroke-width="0.5" opacity="0.3"/>
+  <line x1="96" y1="206" x2="160" y2="206" stroke="#4ff0c8" stroke-width="0.5" opacity="0.3"/>
+  <line x1="96" y1="214" x2="160" y2="214" stroke="#4ff0c8" stroke-width="0.5" opacity="0.3"/>
+  
+  <!-- terminal status bars right side -->
+  <rect x="176" y="88" width="40" height="3" fill="#4ff0c8" opacity="0.7"/>
+  <rect x="176" y="96" width="28" height="3" fill="#4ff0c8" opacity="0.5"/>
+  <rect x="176" y="104" width="34" height="3" fill="#c8321e" opacity="0.7"/>
+  <rect x="176" y="112" width="20" height="3" fill="#4ff0c8" opacity="0.6"/>
+  <rect x="176" y="120" width="38" height="3" fill="#4ff0c8" opacity="0.4"/>
+  
+  <!-- cyber node dots -->
+  <circle cx="220" cy="88" r="2" fill="#e8d9b0"/>
+  <circle cx="210" cy="100" r="1.5" fill="#4ff0c8"/>
+  <circle cx="220" cy="116" r="1.5" fill="#c8321e"/>
+  
+  <!-- left side rune ticks -->
+  <line x1="46" y1="90" x2="52" y2="90" stroke="#e8d9b0" stroke-width="1.5"/>
+  <line x1="44" y1="100" x2="52" y2="100" stroke="#e8d9b0" stroke-width="1.5"/>
+  <line x1="46" y1="110" x2="52" y2="110" stroke="#e8d9b0" stroke-width="1.5"/>
+  <line x1="48" y1="120" x2="52" y2="120" stroke="#4ff0c8" stroke-width="1.5"/>
+  
+  <!-- bottom terminal text-like marks -->
+  <rect x="100" y="228" width="12" height="2" fill="#4ff0c8"/>
+  <rect x="116" y="228" width="20" height="2" fill="#e8d9b0" opacity="0.6"/>
+  <rect x="140" y="228" width="8" height="2" fill="#c8321e"/>
+  
+  <!-- small wordmark -->
+  <text x="128" y="248" text-anchor="middle" font-family="monospace" font-size="6" fill="#e8d9b0" opacity="0.5" letter-spacing="2">DRAGONWILDS</text>
+</svg>
